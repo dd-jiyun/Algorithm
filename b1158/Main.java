@@ -3,8 +3,8 @@ package b1158;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Main {
@@ -16,18 +16,18 @@ public class Main {
         int n = Integer.parseInt(st.nextToken());
         int k = Integer.parseInt(st.nextToken());
 
-        List<Integer> queue = new ArrayList<>();
+        Queue<Integer> queue = new LinkedList<>();
         for (int i = 1; i <= n; i++) {
             queue.add(i);
         }
 
         sb.append("<");
 
-        int index = 0;
         while (!queue.isEmpty()) {
-            index = (index + k - 1) % queue.size();
-            sb.append(queue.remove(index));
-
+            for (int i = 0; i < k - 1; i++) {
+                queue.add(queue.poll());
+            }
+            sb.append(queue.poll());
             if (!queue.isEmpty()) {
                 sb.append(", ");
             }
