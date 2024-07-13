@@ -5,3 +5,4 @@
 - 2024년 7월 10일 : [b9012](https://www.acmicpc.net/problem/9012)
 - 2024년 7월 11일 : [b1158](https://www.acmicpc.net/problem/1158)
 - 2024년 7월 12일 : [b1966](https://www.acmicpc.net/problem/1966)
+- 2024년 7월 13일 : [b9093](https://www.acmicpc.net/problem/9093)
