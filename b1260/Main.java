@@ -3,10 +3,9 @@ package b1260;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.StringTokenizer;
-import java.util.stream.Collectors;
 
 public class Main {
 
@@ -27,15 +26,17 @@ public class Main {
             adjList[w].add(v);
         }
 
+        void sortEdges() {
+            for (int i = 1; i <= vertices; i++) {
+                Collections.sort(adjList[i]);
+            }
+        }
+
         void DFSUtil(int v, boolean visited[]) {
             visited[v] = true;
             System.out.print(v + " ");
 
-            List<Integer> temp = adjList[v];
-            temp = temp.stream().sorted()
-                    .collect(Collectors.toList());
-
-            for (int n : temp) {
+            for (int n : adjList[v]) {
                 if (!visited[n]) {
                     DFSUtil(n, visited);
                 }
@@ -58,11 +59,7 @@ public class Main {
                 startNode = queue.poll();
                 System.out.print(startNode + " ");
 
-                List<Integer> temp = adjList[startNode];
-                temp = temp.stream().sorted()
-                        .collect(Collectors.toList());
-
-                for (int n : temp) {
+                for (int n : adjList[startNode]) {
                     if (!visited[n]) {
                         visited[n] = true;
                         queue.add(n);
@@ -89,6 +86,8 @@ public class Main {
 
             g.addEdge(v, w);
         }
+
+        g.sortEdges();
 
         g.DFS(V);
         System.out.println();
