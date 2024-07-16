@@ -9,3 +9,4 @@
 
 ### BFS & DFS
 - 2024년 7월 15일 : [b1260](https://www.acmicpc.net/problem/1260)
+- 2024년 7월 16일 : [b2667](https://www.acmicps.net/problem/2667)
