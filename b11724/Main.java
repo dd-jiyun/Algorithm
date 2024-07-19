@@ -6,50 +6,66 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-
 public class Main {
     static ArrayList<Integer>[] graph;
     static boolean[] visited;
 
-    static void dfs(int node) {
-        visited[node] = true;
-        for(int connectNode: graph[node]) {
-            if(!visited[connectNode]) {
-                dfs(connectNode);
-            }
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int[] nm = readInput(br);
+        int N = nm[0];
+        int M = nm[1];
+
+        initGraph(N);
+        readEdges(br, M);
+
+        int connectedComponents = countConnectedComponents(N);
+        System.out.println(connectedComponents);
+    }
+
+    static int[] readInput(BufferedReader br) throws IOException {
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
+        return new int[]{N, M};
+    }
+
+    static void initGraph(int n) {
+        graph = new ArrayList[n + 1];
+        for (int i = 1; i <= n; i++) {
+            graph[i] = new ArrayList<>();
+        }
+        visited = new boolean[n + 1];
+    }
+
+    static void readEdges(BufferedReader br, int m) throws IOException {
+        for (int i = 0; i < m; i++) {
+            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+            int u = Integer.parseInt(st.nextToken());
+            int v = Integer.parseInt(st.nextToken());
+            graph[u].add(v);
+            graph[v].add(u);
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-
-        int N = Integer.parseInt(st.nextToken()); // 정점의 개수
-        int M = Integer.parseInt(st.nextToken()); // 간선의 개수
-
-        graph = new ArrayList[N+1];
-        for (int i = 1; i <= N; i++) {
-            graph[i] = new ArrayList<>();
-        }
-
-        for(int i = 0; i < M; i++) {
-            st = new StringTokenizer(br.readLine(), " ");
-            int u = Integer.parseInt(st.nextToken());
-            int v = Integer.parseInt(st.nextToken());
-            graph[u].add(v); // 양방향 연결
-            graph[v].add(u); // 양방향 연결
-        }
-
-        visited = new boolean[N+1];
+    static int countConnectedComponents(int n) {
         int count = 0;
-
-        for(int i = 1; i <= N; i++) {
-            if(!visited[i]) {
+        for (int i = 1; i <= n; i++) {
+            if (!visited[i]) {
                 dfs(i);
                 count++;
             }
         }
-        System.out.println(count);
+        return count;
     }
 
+    static void dfs(int node) {
+        visited[node] = true;
+        for (int connectNode : graph[node]) {
+            if (!visited[connectNode]) {
+                dfs(connectNode);
+            }
+        }
+    }
 }
