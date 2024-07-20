@@ -24,14 +24,14 @@ public class Main {
         System.out.println(connectedComponents);
     }
 
-    static int[] readInput(BufferedReader br) throws IOException {
+    public static int[] readInput(BufferedReader br) throws IOException {
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
         return new int[]{N, M};
     }
 
-    static void initGraph(int n) {
+    public static void initGraph(int n) {
         graph = new ArrayList[n + 1];
         for (int i = 1; i <= n; i++) {
             graph[i] = new ArrayList<>();
@@ -39,7 +39,7 @@ public class Main {
         visited = new boolean[n + 1];
     }
 
-    static void readEdges(BufferedReader br, int m) throws IOException {
+    public static void readEdges(BufferedReader br, int m) throws IOException {
         for (int i = 0; i < m; i++) {
             StringTokenizer st = new StringTokenizer(br.readLine(), " ");
             int u = Integer.parseInt(st.nextToken());
@@ -49,7 +49,7 @@ public class Main {
         }
     }
 
-    static int countConnectedComponents(int n) {
+    public static int countConnectedComponents(int n) {
         int count = 0;
         for (int i = 1; i <= n; i++) {
             if (!visited[i]) {
@@ -60,7 +60,7 @@ public class Main {
         return count;
     }
 
-    static void dfs(int node) {
+    public static void dfs(int node) {
         visited[node] = true;
         for (int connectNode : graph[node]) {
             if (!visited[connectNode]) {
