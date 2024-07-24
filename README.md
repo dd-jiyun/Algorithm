@@ -19,3 +19,4 @@
 ### 백트랙킹
 - 2024년 7월 22일 : [b15663](https://www.acmicpc.net/problem/15663)
 - 2024년 7월 23일 : [b15651](https://www.acmicpc.net/problem/15651)
+- 2024년 7월 24일 : [b1182](https://www.acmicpc.net/problem/1182)
