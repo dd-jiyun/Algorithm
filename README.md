@@ -22,3 +22,4 @@
 - 2024년 7월 24일 : [b1182](https://www.acmicpc.net/problem/1182)
 - 2024년 7월 25일 : [b1759](https://www.acmicpc.net/problem/1759)
 - 2024년 7월 26일 : [b2661](https://www.acmicpc.net/problem/2661)
+- 2024년 7월 27일 : [b6987](https://www.acmicpc.net/problem/6987)
