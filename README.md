@@ -26,3 +26,4 @@
 
 ### 이분탐색
 - 2024년 7월 29일 : [p43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238)
+- 2024년 7월 30일 : [b2805](https://www.acmicpc.net/problem/2805)
