@@ -31,3 +31,4 @@
 
 ### DP (Dynamic Programming)
 - 2024년 8월 1일 : [b12026](https://www.acmicpc.net/problem/12026)
+- 2024년 8월 2일 : [b1890](https://www.acmicpc.net/problem/1890)
