@@ -24,10 +24,11 @@
 - 2024년 7월 26일 : [b2661](https://www.acmicpc.net/problem/2661)
 - 2024년 7월 27일 : [b6987](https://www.acmicpc.net/problem/6987)
 
-### 이분탐색
+### 이진탐색
 - 2024년 7월 29일 : [p43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238)
 - 2024년 7월 30일 : [b2805](https://www.acmicpc.net/problem/2805)
 - 2024년 7월 31일 : [b1654](https://www.acmicpc.net/problem/1654)
+- 2024년 8월 21일 : [p43236](https://school.programmers.co.kr/learn/courses/30/lessons/43236)
 
 ### DP (Dynamic Programming)
 - 2024년 8월 1일 : [b12026](https://www.acmicpc.net/problem/12026)
