@@ -29,6 +29,7 @@
 - 2024년 7월 30일 : [b2805](https://www.acmicpc.net/problem/2805)
 - 2024년 7월 31일 : [b1654](https://www.acmicpc.net/problem/1654)
 - 2024년 8월 21일 : [p43236](https://school.programmers.co.kr/learn/courses/30/lessons/43236)
+- 2024년 8월 22일 : [b2512](https://www.acmicpc.net/problem/2512)
 
 ### DP (Dynamic Programming)
 - 2024년 8월 1일 : [b12026](https://www.acmicpc.net/problem/12026)
