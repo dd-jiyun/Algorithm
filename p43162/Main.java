@@ -3,23 +3,22 @@ package p43162;
 class Solution {
     public int solution(int n, int[][] computers) {
         int count = 0;
-        boolean[] visited = new boolean[n];
 
         for (int i = 0; i < n; i++) {
-            if (!visited[i]) {
-                dfs(i, n, computers, visited);
+            if (computers[i][i] == 1) {
+                dfs(i, n, computers);
                 count++;
             }
         }
         return count;
     }
 
-    public void dfs(int x, int n, int[][] computers, boolean[] visited) {
-        visited[x] = true;
+    public void dfs(int x, int n, int[][] computers) {
+        computers[x][x] = 0;
 
         for (int i = 0; i < n; i++) {
-            if (computers[x][i] == 1 && !visited[i]) {
-                dfs(i, n, computers, visited);
+            if (computers[x][i] == 1 && computers[i][i] == 1) {
+                dfs(i, n, computers);
             }
         }
     }
