@@ -18,6 +18,7 @@
 - 2024년 9월 2일 : [p43165](https://school.programmers.co.kr/learn/courses/30/lessons/43165)
 - 2024년 9월 3일 : [b1987](https://www.acmicpc.net/problem/1987)
 - 2024년 9월 4일 : [p43162](https://school.programmers.co.kr/learn/courses/30/lessons/43162)
+- 2024년 9월 5일 : [p43164](https://school.programmers.co.kr/learn/courses/30/lessons/43164)
 
 ### 백트랙킹
 - 2024년 7월 22일 : [b15663](https://www.acmicpc.net/problem/15663)
