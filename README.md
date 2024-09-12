@@ -51,3 +51,4 @@
 - 2024년 9월 9일 : [p42842](https://school.programmers.co.kr/learn/courses/30/lessons/42842)
 - 2024년 9월 10일 : [p84512](https://school.programmers.co.kr/learn/courses/30/lessons/84512)
 - 2024년 9월 11일 : [b14501](https://www.acmicpc.net/problem/14501)
+- 2024년 9월 12일 : [b14502](https://www.acmicpc.net/problem/14502)
