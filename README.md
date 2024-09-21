@@ -54,7 +54,7 @@
 - 2024년 9월 12일 : [b14502](https://www.acmicpc.net/problem/14502)
 - 2024년 9월 13일 : [b9663](https://www.acmicpc.net/problem/9663)
 
-### 해시(Hash)
+### 해시 (Hash)
 - 2024년 9월 16일 : [p42576](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
 - 2024년 9월 17일 : [p42577](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
 - 2024년 9월 18일 : [b9375](https://www.acmicpc.net/problem/9375)

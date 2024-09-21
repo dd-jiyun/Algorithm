@@ -29,11 +29,7 @@ public class Main {
                 clothes[j][0] = st.nextToken();
                 clothes[j][1] = st.nextToken();
 
-                if (map.containsKey(clothes[j][1])) {
-                    map.put(clothes[j][1], map.get(clothes[j][1]) + 1);
-                } else {
-                    map.put(clothes[j][1], 1);
-                }
+                map.put(clothes[j][1], map.getOrDefault(clothes[j][1], 0) + 1);
             }
 
             result = 1;
