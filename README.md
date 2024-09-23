@@ -64,3 +64,4 @@
 
 ### 그리디 (Greedy)
 - 2024년 9월 23일 : [p42862](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
+- 2024년 9월 24일 : [p42885](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
