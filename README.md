@@ -1,4 +1,5 @@
 ## Algorithm
+
 ### 스택 & 큐
 - 2024년 7월 8일 : [b10828](https://www.acmicpc.net/problem/10828)
 - 2024년 7월 9일 : [p42583](https://school.programmers.co.kr/learn/courses/30/lessons/42583)
@@ -21,7 +22,7 @@
 - 2024년 9월 5일 : [p43164](https://school.programmers.co.kr/learn/courses/30/lessons/43164)
 - 2024년 9월 6일 : [b10026](https://www.acmicpc.net/problem/10026)
 
-### 백트랙킹
+### 백트랙킹 (Backtracking)
 - 2024년 7월 22일 : [b15663](https://www.acmicpc.net/problem/15663)
 - 2024년 7월 23일 : [b15651](https://www.acmicpc.net/problem/15651)
 - 2024년 7월 24일 : [b1182](https://www.acmicpc.net/problem/1182)
@@ -29,7 +30,7 @@
 - 2024년 7월 26일 : [b2661](https://www.acmicpc.net/problem/2661)
 - 2024년 7월 27일 : [b6987](https://www.acmicpc.net/problem/6987)
 
-### 이진탐색
+### 이진탐색 (Binary Search)
 - 2024년 7월 29일 : [p43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238)
 - 2024년 7월 30일 : [b2805](https://www.acmicpc.net/problem/2805)
 - 2024년 7월 31일 : [b1654](https://www.acmicpc.net/problem/1654)
@@ -47,7 +48,7 @@
 - 2024년 8월 29일 : [b1932](https://www.acmicpc.net/problem/1932)
 - 2024년 8월 30일 : [b12865](https://www.acmicpc.net/problem/12865)
 
-### 브루트포스 (Brute Force Algorithm)
+### 브루트포스 (Brute Force)
 - 2024년 9월 9일 : [p42842](https://school.programmers.co.kr/learn/courses/30/lessons/42842)
 - 2024년 9월 10일 : [p84512](https://school.programmers.co.kr/learn/courses/30/lessons/84512)
 - 2024년 9월 11일 : [b14501](https://www.acmicpc.net/problem/14501)
@@ -60,3 +61,6 @@
 - 2024년 9월 18일 : [b9375](https://www.acmicpc.net/problem/9375)
 - 2024년 9월 19일 : [p42579](https://school.programmers.co.kr/learn/courses/30/lessons/42579)
 - 2024년 9월 20일 : [b1525](https://www.acmicpc.net/problem/1525)
+
+### 그리디 (Greedy)
+- 2024년 9월 23일 : [p42862](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
