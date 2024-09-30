@@ -13,12 +13,10 @@ class Solution {
         }
 
         while (queue.peek() < K) {
-
             if (queue.size() < 2) {
                 return -1;
             }
 
-            // 가장 작은 두 요소를 섞음
             int first = queue.poll();
             int second = queue.poll();
             int mix = first + (second * 2);
