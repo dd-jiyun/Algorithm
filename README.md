@@ -71,3 +71,4 @@
 
 ### 힙 (Heap)
 - 2024년 9월 30일 : [p42626](https://school.programmers.co.kr/learn/courses/30/lessons/42626)
+- 2024년 10월 2일 : [p42627](https://school.programmers.co.kr/learn/courses/30/lessons/42627)
