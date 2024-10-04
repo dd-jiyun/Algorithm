@@ -74,3 +74,4 @@
 - 2024년 10월 1일 : [l1046](https://leetcode.com/problems/last-stone-weight/)
 - 2024년 10월 2일 : [p42627](https://school.programmers.co.kr/learn/courses/30/lessons/42627)
 - 2024년 10월 3일 : [p42628](https://school.programmers.co.kr/learn/courses/30/lessons/42628)
+- 2024년 10월 4일 : [l1631](https://leetcode.com/problems/path-with-minimum-effort/)
