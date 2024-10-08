@@ -44,7 +44,7 @@
 - 2024년 8월 3일 : [b1495](https://www.acmicpc.net/problem/1495)
 - 2024년 8월 26일 : [p42895](https://school.programmers.co.kr/learn/courses/30/lessons/42895)
 - 2024년 8월 27일 : [p42898](https://school.programmers.co.kr/learn/courses/30/lessons/42898)
-- 2024년 8월 28일 : [p1843](https://school.programmers.co.kr/learn/courses/30/lessons/1843)
+- 2024년 8월 28일 / 2024년 10월 8일 : [p1843](https://school.programmers.co.kr/learn/courses/30/lessons/1843)
 - 2024년 8월 29일 : [b1932](https://www.acmicpc.net/problem/1932)
 - 2024년 8월 30일 : [b12865](https://www.acmicpc.net/problem/12865)
 

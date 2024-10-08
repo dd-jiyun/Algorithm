@@ -14,24 +14,20 @@ class Solution {
         for (int len = 1; len < n; len++) {
             for (int i = 0; i < n - len; i++) {
                 int j = i + len;
-
                 max[i][j] = Integer.MIN_VALUE;
                 min[i][j] = Integer.MAX_VALUE;
 
                 for (int k = i; k < j; k++) {
                     String operator = arr[2 * k + 1];
-                    int maxValue = 0, minValue = 0;
 
                     if (operator.equals("+")) {
-                        maxValue = max[i][k] + max[k + 1][j];
-                        minValue = min[i][k] + min[k + 1][j];
-                    } else if (operator.equals("-")) {
-                        maxValue = max[i][k] - min[k + 1][j];
-                        minValue = min[i][k] - max[k + 1][j];
+                        max[i][j] = Math.max(max[i][j], max[i][k] + max[k + 1][j]);
+                        min[i][j] = Math.min(min[i][j], min[i][k] + min[k + 1][j]);
                     }
-
-                    max[i][j] = Math.max(max[i][j], maxValue);
-                    min[i][j] = Math.min(min[i][j], minValue);
+                    else if (operator.equals("-")) {
+                        max[i][j] = Math.max(max[i][j], max[i][k] - min[k + 1][j]);
+                        min[i][j] = Math.min(min[i][j], min[i][k] - max[k + 1][j]);
+                    }
                 }
             }
         }
@@ -43,7 +39,11 @@ class Solution {
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        String[] arr = {"1", "-", "3", "+", "5", "-", "8"};
-        System.out.println(solution.solution(arr));
+
+        String[] arr1 = {"1", "-", "3", "+", "5", "-", "8"};
+        System.out.println(solution.solution(arr1));
+
+        String[] arr2 = {"5", "-", "3", "+", "1", "-", "2"};
+        System.out.println(solution.solution(arr2));
     }
 }
