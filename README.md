@@ -13,7 +13,7 @@
 - 2024년 7월 15일 : [b1260](https://www.acmicpc.net/problem/1260)
 - 2024년 7월 16일 : [b2667](https://www.acmicps.net/problem/2667)
 - 2024년 7월 17일 : [b1012](https://www.acmicpc.net/problem/1012)
-- 2024년 7월 18일 : [b1697](https://www.acmicpc.net/problem/1697)
+- 2024년 7월 18일 / 2024년 10월 8일 : [b1697](https://www.acmicpc.net/problem/1697)
 - 2024년 7월 19일 : [b11724](https://www.acmicpc.net/problem/11724)
 - 2024년 7월 20일 : [b2178](https://www.acmicpc.net/problem/2178)
 - 2024년 9월 2일 : [p43165](https://school.programmers.co.kr/learn/courses/30/lessons/43165)

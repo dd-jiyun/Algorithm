@@ -8,49 +8,38 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Main {
-    static int N, K;
-    static int[] idx = {-1, 1};
-    static boolean[] visited = new boolean[100001];
+    static int n, k;
+    static int[] time = new int[100001];
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
-        N = Integer.parseInt(st.nextToken());
-        K = Integer.parseInt(st.nextToken());
+        n = Integer.parseInt(st.nextToken());
+        k = Integer.parseInt(st.nextToken());
 
-        System.out.println(bfs(N));
+        System.out.println(bfs(n));
     }
 
-    public static int bfs(int cur) {
-        if (cur == K) return 0;  // 시작점과 목표가 같을 경우
-
+    public static int bfs(int start) {
         Queue<Integer> queue = new LinkedList<>();
-        queue.offer(cur);
-        visited[cur] = true;
-        int cnt = 0;
+        queue.offer(start);
+        time[start] = 1;
 
         while (!queue.isEmpty()) {
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                int currentN = queue.poll();
-                if (currentN == K) {
-                    return cnt;
-                }
-                for (int j = 0; j < 2; j++) {
-                    int next = currentN + idx[j];
-                    if (next >= 0 && next <= 100000 && !visited[next]) {
-                        visited[next] = true;
-                        queue.offer(next);
-                    }
-                }
-                int next = currentN * 2;
-                if (next <= 100000 && !visited[next]) {
-                    visited[next] = true;
+            int current = queue.poll();
+
+            if (current == k) {
+                return time[current] - 1;
+            }
+
+            int[] nextPositions = {current - 1, current + 1, current * 2};
+            for (int next : nextPositions) {
+                if (next >= 0 && next <= 100000 && time[next] == 0) {
+                    time[next] = time[current] + 1;
                     queue.offer(next);
                 }
             }
-            cnt++;
         }
         return -1;
     }
