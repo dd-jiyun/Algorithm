@@ -15,13 +15,12 @@ public class Main {
     private static final String NOT_ACCEPTABLE = "not acceptable";
 
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
-        List<String> inputs = main.input();
-        List<String> results = main.validate(inputs);
-        System.out.print(main.output(results));
+        List<String> inputs = input();
+        List<String> results = validate(inputs);
+        System.out.print(output(results));
     }
 
-    private List<String> input() {
+    private static List<String> input() {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         return br.lines()
@@ -29,24 +28,24 @@ public class Main {
                 .collect(Collectors.toList());
     }
 
-    private List<String> validate(List<String> inputs) {
+    private static List<String> validate(List<String> inputs) {
         return inputs.stream()
                 .map(input -> String.format(RESULT_MESSAGE,
                         input, isValid(input) ? ACCEPTABLE : NOT_ACCEPTABLE))
                 .collect(Collectors.toList());
     }
 
-    private boolean isValid(String input) {
+    private static boolean isValid(String input) {
         return hasVowel(input) && !hasThreeContinuous(input) && !hasInvalidRepeats(input);
     }
 
-    private boolean hasVowel(String input) {
+    private static boolean hasVowel(String input) {
         return input.chars()
                 .mapToObj(c -> (char) c)
-                .anyMatch(this::isVowel);
+                .anyMatch(Main::isVowel);
     }
 
-    private boolean hasThreeContinuous(String input) {
+    private static boolean hasThreeContinuous(String input) {
         int[] counts = new int[2];
 
         for (char ch : input.toCharArray()) {
@@ -65,11 +64,11 @@ public class Main {
         return false;
     }
 
-    private boolean isVowel(char ch) {
+    private static boolean isVowel(char ch) {
         return VOWELS.indexOf(ch) >= 0;
     }
 
-    private boolean hasInvalidRepeats(String input) {
+    private static boolean hasInvalidRepeats(String input) {
         for (int i = 1; i < input.length(); i++) {
             char prev = input.charAt(i - 1);
             char curr = input.charAt(i);
@@ -82,7 +81,7 @@ public class Main {
         return false;
     }
 
-    private String output(List<String> results) {
+    private static String output(List<String> results) {
         StringBuilder sb = new StringBuilder();
         results.forEach(result -> sb.append(result).append("\n"));
 
