@@ -79,3 +79,6 @@
 ### 수학
 - 2024년 11월 18일 : [b23971](https://www.acmicpc.net/problem/23971)
 - 2024년 11월 19일 : [b9655](https://www.acmicpc.net/problem/9655)
+
+### 구현
+- 2024년 11월 20일 : [b4659](https://www.acmicpc.net/problem/4659)
