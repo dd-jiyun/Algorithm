@@ -84,3 +84,4 @@
 
 ### 구현
 - 2024년 11월 20일 : [b4659](https://www.acmicpc.net/problem/4659)
+- 2024년 11월 25일 : [b2816](https://www.acmicpc.net/problem/2816)
