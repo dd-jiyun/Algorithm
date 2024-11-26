@@ -62,6 +62,7 @@
 - 2024년 9월 18일 : [b9375](https://www.acmicpc.net/problem/9375)
 - 2024년 9월 19일 : [p42579](https://school.programmers.co.kr/learn/courses/30/lessons/42579)
 - 2024년 9월 20일 : [b1525](https://www.acmicpc.net/problem/1525)
+- 2024년 11월 26일 : [b20920](https://www.acmicpc.net/problem/20920)
 
 ### 그리디 (Greedy)
 - 2024년 9월 23일 : [p42862](https://school.programmers.co.kr/learn/courses/30/lessons/42862)
