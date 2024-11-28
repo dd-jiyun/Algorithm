@@ -13,6 +13,8 @@ public class Main {
         List<Word> result = findSimilarWords(words);
 
         printResult(result);
+
+        br.close();
     }
 
     private static List<Word> readWords(BufferedReader br, int n) throws IOException {
