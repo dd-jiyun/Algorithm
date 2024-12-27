@@ -99,3 +99,6 @@
 
 ### 그래프
 - 2024년 12월 4일 : [p258712](https://school.programmers.co.kr/learn/courses/30/lessons/258712)
+
+### 문자열
+- 2024년 12월 28일 : [p20437](https://www.acmicpc.net/problem/20437)
