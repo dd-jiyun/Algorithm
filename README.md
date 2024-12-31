@@ -97,6 +97,7 @@
 - 2024년 11월 25일 : [b2816](https://www.acmicpc.net/problem/2816)
 - 2024년 12월 21일 : [p150370](https://school.programmers.co.kr/learn/courses/30/lessons/150370)
 - 2024년 12월 23일 : [b1138](https://www.acmicpc.net/problem/1138)
+- 2024년 12월 31일 : [b1244](https://www.acmicpc.net/problem/1244)
 
 ### 그래프
 - 2024년 12월 4일 : [p258712](https://school.programmers.co.kr/learn/courses/30/lessons/258712)
