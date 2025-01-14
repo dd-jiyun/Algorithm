@@ -12,6 +12,7 @@
 - 2024년 12월 3일 : [b2075](https://www.acmicpc.net/problem/2075)
 - 2025년 1월 3일 : [b1863](https://www.acmicpc.net/problem/1863)
 - 2025년 1월 13일 : [p42586](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
+- 2025년 1월 14일: [b17413](https://www.acmicpc.net/problem/17413)
 
 ### BFS & DFS
 - 2024년 7월 15일 : [b1260](https://www.acmicpc.net/problem/1260)
