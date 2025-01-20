@@ -10,23 +10,28 @@ public class Main {
         int n = Integer.parseInt(br.readLine());
 
         int[] a = new int[n];
+
         StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; i++) {
             a[i] = Integer.parseInt(st.nextToken());
         }
 
-        int[] dp = new int[n];
-        Arrays.fill(dp, 1);
+        ArrayList<Integer> dp = new ArrayList<>();
 
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < i; j++) {
-                if (a[j] < a[i]) {
-                    dp[i] = Math.max(dp[i], dp[j] + 1);
-                }
+        for (int num : a) {
+            int pos = Collections.binarySearch(dp, num);
+
+            if (pos < 0) {
+                pos = -(pos + 1);
+            }
+
+            if (pos < dp.size()) {
+                dp.set(pos, num);
+            } else {
+                dp.add(num);
             }
         }
 
-        int result = Arrays.stream(dp).max().orElse(0);
-        System.out.println(result);
+        System.out.println(dp.size());
     }
 }
