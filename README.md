@@ -58,6 +58,7 @@
 - 2024년 8월 28일 / 2024년 10월 8일 : [p1843](https://school.programmers.co.kr/learn/courses/30/lessons/1843)
 - 2024년 8월 29일 : [b1932](https://www.acmicpc.net/problem/1932)
 - 2024년 8월 30일 : [b12865](https://www.acmicpc.net/problem/12865)
+- 2025년 1월 20일 : [b1149](https://www.acmicpc.net/problem/1149)
 
 ### 브루트포스 (Brute Force)
 - 2024년 9월 9일 : [p42842](https://school.programmers.co.kr/learn/courses/30/lessons/42842)
