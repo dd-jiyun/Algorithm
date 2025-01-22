@@ -61,6 +61,7 @@
 - 2025년 1월 20일 : [b1149](https://www.acmicpc.net/problem/1149)
 - 2025년 1월 21일 : [b11053](https://www.acmicpc.net/problem/11053)
 - 2025년 1월 22일 : [b1912](https://www.acmicpc.net/problem/1912)
+- 2025년 1월 23일 : [b2098](https://www.acmicpc.net/problem/2098)
 
 ### 브루트포스 (Brute Force)
 - 2024년 9월 9일 : [p42842](https://school.programmers.co.kr/learn/courses/30/lessons/42842)
