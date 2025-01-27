@@ -9,9 +9,9 @@ public class b1021 {
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
 
-        Deque<Integer> deque = new ArrayDeque<>();
+        LinkedList<Integer> list = new LinkedList<>();
         for (int i = 1; i <= n; i++) {
-            deque.add(i);
+            list.add(i);
         }
 
         st = new StringTokenizer(br.readLine());
@@ -20,42 +20,36 @@ public class b1021 {
             targets[i] = Integer.parseInt(st.nextToken());
         }
 
-        int total = calculateTotal(targets, deque);
+        int total = calculateTotal(targets, list);
 
         System.out.println(total);
         br.close();
     }
 
-    private static int calculateTotal(int[] targets, Deque<Integer> deque) {
+    private static int calculateTotal(int[] targets, LinkedList<Integer> list) {
         int total = 0;
 
         for (int target : targets) {
-            int idx = 0;
-
-            for (int num : deque) {
-                if (num == target) {
-                    break;
-                }
-                idx++;
-            }
+            int idx = list.indexOf(target);
 
             int left = idx;
-            int right = deque.size() - idx;
+            int right = list.size() - idx;
 
             if (left <= right) {
                 total += left;
                 for (int i = 0; i < left; i++) {
-                    deque.addLast(deque.pollFirst());
+                    list.addLast(list.pollFirst());
                 }
             } else {
                 total += right;
                 for (int i = 0; i < right; i++) {
-                    deque.addFirst(deque.pollLast());
+                    list.addFirst(list.pollLast());
                 }
             }
 
-            deque.pollFirst();
+            list.pollFirst();
         }
+
         return total;
     }
 }
