@@ -105,6 +105,7 @@
 - 2024년 11월 19일 : [b9655](https://www.acmicpc.net/problem/9655)
 - 2024년 11월 21일 : [p17681](https://school.programmers.co.kr/learn/courses/30/lessons/17681)
 - 2025년 1월 6일 : [b9527](https://www.acmicpc.net/problem/9527)
+- 2025년 1월 28일 : [b1124](https://www.acmicpc.net/problem/1124)
 
 ### 구현
 - 2024년 11월 20일 : [b4659](https://www.acmicpc.net/problem/4659)
