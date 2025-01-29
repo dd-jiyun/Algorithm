@@ -123,3 +123,4 @@
 ### 문자열
 - 2024년 12월 28일 : [b20437](https://www.acmicpc.net/problem/20437)
 - 2025년 1월 1일 : [p42746](https://school.programmers.co.kr/learn/courses/30/lessons/42746)
+- 2025년 1월 29일 : [p12915](https://school.programmers.co.kr/learn/courses/30/lessons/12915)
