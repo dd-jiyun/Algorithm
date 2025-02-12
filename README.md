@@ -40,6 +40,7 @@
 - 2024년 7월 25일 : [b1759](https://www.acmicpc.net/problem/1759)
 - 2024년 7월 26일 : [b2661](https://www.acmicpc.net/problem/2661)
 - 2024년 7월 27일 : [b6987](https://www.acmicpc.net/problem/6987)
+- 2025년 2월 12일 : [p42839](https://school.programmers.co.kr/learn/courses/30/lessons/42839)
 
 ### 이진탐색 (Binary Search)
 - 2024년 7월 29일 : [p43238](https://school.programmers.co.kr/learn/courses/30/lessons/43238)
