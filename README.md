@@ -76,6 +76,7 @@
 - 2024년 11월 28일 : [b2179](https://www.acmicpc.net/problem/2179)
 - 2024년 12월 20일 : [b7568](https://www.acmicpc.net/problem/7568)
 - 2025년 2월 11일 : [b10974](https://www.acmicpc.net/problem/10974)
+- 2025년 2월 14일 : [b12919](https://www.acmicpc.net/problem/12919)
 
 ### 해시 (Hash)
 - 2024년 9월 16일 : [p42576](https://school.programmers.co.kr/learn/courses/30/lessons/42576)
