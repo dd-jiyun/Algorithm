@@ -16,35 +16,29 @@ public class b1343 {
             if (c == 'X') {
                 count++;
             } else {
-                if (!replacePolyomino(result, count)) {
-                    return "-1";
-                }
+                replacePolyomino(result, count);
                 result.append(".");
                 count = 0;
             }
         }
-
-        if (!replacePolyomino(result, count)) {
-            return "-1";
-        }
+        replacePolyomino(result, count);
 
         return result.toString();
     }
 
-    private static boolean replacePolyomino(StringBuilder result, int count) {
+    private static void replacePolyomino(StringBuilder result, int count) {
         if (count % 2 != 0) {
-            return false;
+            result.setLength(0);
+            result.append("-1");
+            return;
         }
 
         while (count >= 4) {
             result.append("AAAA");
             count -= 4;
         }
-
         if (count == 2) {
             result.append("BB");
         }
-
-        return true;
     }
 }
