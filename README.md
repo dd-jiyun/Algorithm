@@ -124,6 +124,7 @@
 - 2025년 2월 17일 : [b1343](https://www.acmicpc.net/problem/1343)
 - 2025년 2월 19일 : [b20125](https://www.acmicpc.net/problem/20125)
 - 2025년 2월 20일 : [b1515](https://www.acmicpc.net/problem/1515)
+- 2025년 2월 21일 : [b14719](https://www.acmicpc.net/problem/14719)
 
 ### 그래프
 - 2024년 12월 4일 : [p258712](https://school.programmers.co.kr/learn/courses/30/lessons/258712)
