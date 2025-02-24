@@ -130,6 +130,7 @@
 ### 그래프
 - 2024년 12월 4일 : [p258712](https://school.programmers.co.kr/learn/courses/30/lessons/258712)
 - 2025년 1월 9일 : [b24042](https://www.acmicpc.net/problem/24042)
+- 2025년 2월 24일 : [b9372](https://www.acmicpc.net/problem/9372)
 
 ### 문자열
 - 2024년 12월 28일 : [b20437](https://www.acmicpc.net/problem/20437)
