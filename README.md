@@ -133,6 +133,7 @@
 - 2025년 2월 24일 : [b9372](https://www.acmicpc.net/problem/9372)
 - 2025년 2월 25일 : [b9934](https://www.acmicpc.net/problem/9934)
 - 2025년 2월 26일 : [b1991](https://www.acmicpc.net/problem/1991)
+- 2025년 2월 27일 : [b14675](https://www.acmicpc.net/problem/14675)
 
 ### 문자열
 - 2024년 12월 28일 : [b20437](https://www.acmicpc.net/problem/20437)
