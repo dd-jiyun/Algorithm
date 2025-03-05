@@ -99,6 +99,7 @@
 - 2024년 12월 24일 : [p340199](https://school.programmers.co.kr/learn/courses/30/lessons/340199)
 - 2025년 3월 3일 : [b1789](https://www.acmicpc.net/problem/1789)
 - 2025년 3월 4일 : [b1049](https://www.acmicpc.net/problem/1049)
+- 2025년 3월 5일 : [b13305](https://www.acmicpc.net/problem/13305)
 
 ### 힙 (Heap)
 - 2024년 9월 30일 : [p42626](https://school.programmers.co.kr/learn/courses/30/lessons/42626)
