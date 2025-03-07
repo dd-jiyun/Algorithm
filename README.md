@@ -101,6 +101,7 @@
 - 2025년 3월 4일 : [b1049](https://www.acmicpc.net/problem/1049)
 - 2025년 3월 5일 : [b13305](https://www.acmicpc.net/problem/13305)
 - 2025년 3월 6일 : [b1715](https://www.acmicpc.net/problem/1715)
+- 2025년 3월 7일 : [b8980](https://www.acmicpc.net/problem/8980)
 
 ### 힙 (Heap)
 - 2024년 9월 30일 : [p42626](https://school.programmers.co.kr/learn/courses/30/lessons/42626)
