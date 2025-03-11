@@ -18,6 +18,7 @@
 - 2025년 1월 17일 : [b9935](https://www.acmicpc.net/problem/9935)
 - 2025년 1월 27일 : [b1021](https://www.acmicpc.net/problem/1021)
 - 2025년 3월 10일 : [b11866](https://www.acmicpc.net/problem/11866)
+- 2025년 3월 11일 : [b24511](https://www.acmicpc.net/problem/24511)
 
 ### BFS & DFS
 - 2024년 7월 15일 : [b1260](https://www.acmicpc.net/problem/1260)
