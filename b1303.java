@@ -1,9 +1,5 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
 public class b1303 {
     static int n, m;
@@ -16,8 +12,8 @@ public class b1303 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
+        n = Integer.parseInt(st.nextToken());
 
         map = new char[n][m];
         visited = new boolean[n][m];
@@ -26,33 +22,34 @@ public class b1303 {
             map[i] = br.readLine().toCharArray();
         }
 
-        int w = 0, b = 0;
+        int wPower = 0, bPower = 0;
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (!visited[i][j]) {
                     int size = bfs(i, j, map[i][j]);
                     if (map[i][j] == 'W') {
-                        w += size * size;
+                        wPower += size * size;
                     } else {
-                        b += size * size;
+                        bPower += size * size;
                     }
                 }
             }
         }
 
-        System.out.println(w + " " + b);
+        System.out.println(wPower + " " + bPower);
     }
 
     private static int bfs(int x, int y, char team) {
         Queue<int[]> queue = new LinkedList<>();
         queue.add(new int[]{x, y});
         visited[x][y] = true;
+
         int count = 1;
 
         while (!queue.isEmpty()) {
-            int[] pos = queue.poll();
-            int cx = pos[0], cy = pos[1];
+            int[] cur = queue.poll();
+            int cx = cur[0], cy = cur[1];
 
             for (int i = 0; i < 4; i++) {
                 int nx = cx + dx[i], ny = cy + dy[i];
@@ -64,6 +61,7 @@ public class b1303 {
                 }
             }
         }
+
         return count;
     }
 }
