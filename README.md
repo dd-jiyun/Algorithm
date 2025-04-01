@@ -38,6 +38,7 @@
 - 2024년 11월 22일 : [b16234](https://www.acmicpc.net/problem/16234)
 - 2024년 12월 6일 : [b1976](https://www.acmicpc.net/problem/16234)
 - 2025년 3월 31일 : [b11060](https://www.acmicpc.net/problem/11060)
+- 2025년 4월 1일 : [b1303](https://www.acmicpc.net/problem/1303)
 
 ### 백트랙킹 (Backtracking)
 - 2024년 7월 22일 : [b15663](https://www.acmicpc.net/problem/15663)
